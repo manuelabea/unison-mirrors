@@ -25,8 +25,8 @@ function Title({ layers, ...props }) {
 
   return (
     <group {...props} ref={group}>
-      <Text ref={textRef} name="text-panna" depthTest={false} material-toneMapped={false} material-color="#FFFFFF" {...TEXT_PROPS}>
-        PANNA
+      <Text ref={textRef} name="text-panna" depthTest={false} material-toneMapped={false} material-color="#FFFFFF" {...TEXT_PROPS} font={"https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"} weight={700}>
+        unison
       </Text>
     </group>
   )
